@@ -1,0 +1,11 @@
+header {
+	width: 1000px;
+	height: 100px;
+}
+.navBar {
+	width: 1000px;
+	height: 100px;
+}
+.logoTest {
+	background: url("../media/img/titleLogo.png");
+}
