@@ -4,66 +4,80 @@
 	<head>
 		<link rel="Stylesheet" type="text/css" href="css/base_temp.css" />
 	</head>
-	<body>
-		<header><!-- navigation -->
-			<!-- navigation bar -->
-			<div class="navBar">
-				<a class="titleLogo" href="/base.html"></a>
-			<!-- customer service center and login or logout button -->
-				<div class="">
-					<a class="helpCenter">고객센터</a>
-				</div>
-				<div class="login">
-					<div class="loginButton">
-						<a>Login</a>
+		<body>
+			<div id="tempBody">
+			<div class="header">
+				<!-- navigation bar -->
+				<div class="navBar">
+					<div class="titleLogo"></div>
+				<!-- customer service center and login or logout button -->
+					<div class="rightNav">
+						<div class="helpCenter">
+							<a><img src="media/img/helpCenter.png" alt="customerCenter"/></a>
+						</div>
+						<div class="login">
+							<div class="loginButton">
+								<a><img src="media/img/loginButton.png" alt="loginButton"/></a>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div><!-- /navBar -->
-		</header>
-		<div id=""><!-- body content -->
-			<!-- white box for delivery order -->
-			<div class="orderBox">
-				<!-- order information -->
-				<div class="orderInfo">
-					<h2>배달 음식 온라인 주문 서비스<h2>
-					<span>주문 지역에 맞춘 다양한 배달 음식 정보 제공<br>YOGIYO로 새로운 음식 배달 서비스를 경험하세요.</span>
-				</div>
-				<!-- order area search bar -->
-				<div class="orderArea">
-					<label id="orderArea_info">주문하시는 지역의 동 이름을 입력하세요.</label>
-					<input type="text" id="orderArea" value="" placeholder="예) 서울시 강남구 논현동" name="orderArea" />
-				</div>
-				<!-- serach button -->
-				<div class="search">
-					<div class="serachButton">
-						<a>검색하기</a>
+				</div><!-- /navBar -->
+			</div>
+			<div class="bodyContent"><!-- body content -->
+				<!-- white box for delivery order -->
+				<div class="orderBox">
+					<!-- order information -->
+					<div class="orderInfo">
+						<p id="orderInfo_title">배달 음식 온라인 주문 서비스</p>
+						<p id="orderInfo_subs">주문 지역에 맞춘 다양한 배달 음식 정보 제공 YOGIYO로 새로운 음식 배달 서비스를 경험하세요.</p>
 					</div>
+					<!-- order area search bar -->
+					<div id="orderArea">
+						<label id="orderArea_info">주문하시는 지역의 동 이름을 입력하세요.</label>
+						<div id="orderArea_input">
+							<input type="image" id="inputBox_icon" src="media/img/inputBox_icon.png" />
+							<input type="text" id="orderArea" size="30" placeholder="예) 서울시 강남구 논현동" name="orderArea" />
+						</div>
+					</div><!-- /orderArea -->
+					<!-- serach button -->
+					<div class="searchButton">
+						<div id ="searchBox">
+							<a id="search">검색하기</a>
+						</div>
+					</div>
+				</div><!-- /orderBox -->
+			</div><!-- /bodyContent -->
+			<div class="bodyInformation"><!-- body information -->						
+				<!-- Order Process -->
+				<ul class="orderProcess">
+					<li><span>어떻게 주문하나요?</span></li>
+					<li>주소를 입력하세요.</li>
+					<li>배달 가능한 식당을 보고 주문하세요.</li>
+					<li>주문이 완료되면 음식이 배달됩니다.</li>
+				</ul>
+			</div><!-- /bodyInformation -->
+
+			<div id="footerTemp">
+				<img src="media/img/footerTemp.png" />
+			</div>
+			<!--
+			<div class="footer">
+				<div class="moreInfo">
+					<div id="footerLogo"><img src="media/img/footerLogo.png" alt="footerLogo" /></div>
+					<p id="moreInfo_subs">에 대한 추가정보</p>
 				</div>
-			</div><!-- /orderBox -->
-		</div><!-- / -->
-		<div id=""><!-- body information -->						
-			<!-- Order Process -->
-			<ul class="orderProcess">
-				<li><span>어떻게<br>주문하나요?</span></li>
-				<li>주소를 입력하세요.</li>
-				<li>배달 가능한 식당을<br>보고 주문하세요.</li>
-				<li>주문이 완료되면<br>음식이 배달됩니다.</li>
-			</ul>
-		</div><!-- / -->
-		<footer id=""><!-- footer -->
-			<!-- footer navigation -->
-			<div class="moreInfo">
-			<span>에 대한 추가정보</span>
-			<ul class="footerNav">
-				<li><a>YOGIYO 소개</a></li>
-				<li><a>연락처</a></li>
-				<li><a>블로그</a></li>
-				<li><a>채용</a></li>
-				<li><a>문제해결</a></li>
-				<li><a>회사정보</a></li>
-				<li><a>이용약관</a></li>
-				<li><a>음식점 이름을 여기 입력하세요.</a></li>
-			</ul>
-		</footer>
-	</body>
+				<ul class="footerNav">
+					<li><a>YOGIYO 소개</a></li>
+					<li><a>연락처</a></li>
+					<li><a>블로그</a></li>
+					<li><a>채용</a></li>
+					<li><a>문제해결</a></li>
+					<li><a>회사정보</a></li>
+					<li><a>이용약관</a></li>
+					<li><a>음식점 이름을 여기 입력하세요.</a></li>
+				</ul>
+			</div>
+			-->
+		</div>
+		</body>
 </html>

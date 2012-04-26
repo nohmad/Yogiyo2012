@@ -1,11 +1,160 @@
-header {
-	width: 1000px;
-	height: 100px;
+body
+{
+	background-color: #f7f8e1;
+	background-image: url(../media/img/bgFood.png);
+	background-repeat: no-repeat;
+	width: 993px;
+	height: 1450px;
 }
-.navBar {
-	width: 1000px;
-	height: 100px;
+.header
+{
+	width: 993px;
+	height: 80px;
 }
-.logoTest {
-	background: url("../media/img/titleLogo.png");
+.navBar
+{
+	width
 }
+.titleLogo
+{
+	background-image: url(../media/img/titleLogo.png);
+	width: 250px;
+	height: 97px;
+	display: block;
+	float: left;
+	margin: 55px 0 0 60px;
+}
+.rightNav
+{
+	width: 223px;
+	float: left;
+	margin: 110px 0 0 460px;
+}
+.helpCenter
+{
+	float: left;
+	margin: 11px 45px 0 0;
+}
+.bodyContent
+{
+	background-color: rgba(255,255,255,0.8);
+	width: 400px;
+	height: 465px;
+	margin: 220px 0 0 296px;
+	border-radius: 15px;
+}
+.orderBox
+{
+	margin-left: 32px;
+  padding-top: 40px;
+}
+#orderInfo_title
+{
+	background-image: url(../media/img/orderInfo_title.png);
+	background-repeat: no-repeat;
+	width: 309px;
+	text-indent: -9999px;
+  padding-top: 30px;
+}
+#orderInfo_subs
+{
+  background-image: url(../media/img/orderInfo_subs.png);
+  background-repeat: no-repeat;
+  width: 346px;
+  text-indent: -9999px;
+  padding-top: 60px;
+}
+#orderArea_info
+{
+  background-image: url(../media/img/orderArea_info.png);
+  background-repeat: no-repeat;
+  width: 278px;
+  text-indent: -9999px;
+  display: block;
+  padding-top: 20px;
+}
+
+#orderArea_input
+{
+  background-color: white;
+  width: 310px;
+  border: solid 9px #e71c62;
+  float: left;
+}
+#inputBox_icon
+{
+  margin: 5px 0 2px 10px;
+  float: left;
+}
+#orderArea
+{
+  border: none;
+  float: left;
+  margin: 7px 0 0 7px;
+}
+
+.searchButton
+{
+  background-image: url(../media/img/searchButton.png);
+  background-repeat: no-repeat;
+  width: 123px;
+  height: 53px;
+  margin: 40px 0 0 100px;
+  float: left;
+}
+#searchBox
+{
+  padding: 18px 0 0 0px;
+}
+#search
+{
+  background-image: url(../media/img/search.png);
+  background-repeat: no-repeat;
+  width: 65px;
+  margin: 0 0 0 28px;
+  text-indent: -9999px;
+  display: block;
+}
+.bodyInformation
+{
+  background-image: url(../media/img/orderProcess.png);
+  background-repeat: no-repeat;
+  margin: 200px 0 0 62px;
+  text-indent: -9999px;
+}
+#footerTemp
+{
+  width: 100%;
+  margin-top: 200px;
+  text-align: center;
+}
+
+
+/*
+.footer
+{
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+footer.li
+{
+  list-style: none;
+}
+.moreInfo
+{
+  text-indent: -9999px;
+}
+#footerLogo
+{
+  background-image: url(../media/img/footerLogo.png);
+  background-repeat: no-repeat;
+  width: 96px;
+  height: 38px;
+}
+#moreInfo_subs
+{
+  background-image: url(../media/img/moreInfo_subs.png);
+  background-repeat: no-repeat;
+}
+*/
