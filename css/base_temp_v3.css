@@ -1,0 +1,56 @@
+body
+{
+	background-color: black;
+}
+#bodyContent
+{
+	background-color: rgba(255,255,255,0.8);
+	width: 360px;
+	height: 370px;
+	border-radius: 7px;
+	font-family: "NanumGothicBold", sans-serif;
+}
+#bodyContent #alignBox
+{
+	text-align: center;
+	padding-top: 55px;
+}
+#bodyContent h1
+{
+	font-size: 30px;
+	color: #e71c62;
+}
+#bodyContent p
+{
+	color: #505050;
+	margin-top: 45px;
+	margin-bottom: 12px;
+}
+#orderArea_input
+{
+	background-color: #e71c62;
+	width: 310px;
+	height: 47.5px;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding-top: 7.5px;
+}
+#orderArea_input div
+{
+	background-color: white;
+	width: 295px;
+	height: 40px;
+	border-radius: 8px;
+	margin: 0 auto;
+}
+#icon
+{
+	text-align: left;
+	width: 26px;
+	float: left;
+}
+#orderArea
+{
+	border-style: none;
+	float: left;
+}

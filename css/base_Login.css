@@ -1,0 +1,174 @@
+body
+{
+	background-color: black;
+}
+#orderBox
+{
+	background-color: rgba(255,255,255,0.8);
+	width: 290px;
+	height: 345px;
+	border-radius: 7px;
+	padding-top: 30px;
+	float: left;
+}
+#orderBox p
+{
+	float: left;
+	text-indent: -9999px;
+	margin-left: 30px;
+}
+#orderBox #title
+{
+	background-image: url(../media/img/sentence/orderBox_title.png);
+	background-repeat: no-repeat;
+	width: 196px;
+	padding-top: 6px;
+}
+#orderBox #subs
+{
+	background-image: url(../media/img/sentence/orderBox_subs.png);
+	background-repeat: no-repeat;
+	width: 178px;
+}
+#inputBox
+{
+	background-color: #e71c62;
+	width: 234px;
+	height: 40px;
+	float: left;
+	border-radius: 6px;
+	margin-left: 30px;
+}
+#whiteBox
+{
+	background-color: white;
+	height: 28px;
+	border-radius: 5px;
+	margin: 6px;
+}
+#inputBox input
+{
+	float: left;
+}
+#inputBox #icon
+{
+	margin: 3px;
+	position: absolute;
+}
+#inputBox #box
+{
+	margin: 5px 0 0 35px;
+	border-style: none;
+}
+#orderBox #lastAddress
+{
+	background-image: url(../media/img/sentence/lastAddress.png);
+	background-repeat: no-repeat;
+	width: 154px;
+	float: left;
+	margin-top: 38px;
+}
+#searchBtn
+{
+	float: left;
+	border-style: none;
+}
+#searchBtn input
+{
+	width: 100px;
+	height: 43px;
+	border-style: none;
+	background-color: transparent;
+	background-image: url(../media/img/btn/searchBtn.png);
+	margin: 35px 0 0 93px;
+}
+
+#lastOrder_box
+{
+	background-color: rgba(255,255,255,0.8);
+	width: 250px;
+	height: 300px;
+	border-radius: 7px;
+	margin-left: 95px;
+	float: left;
+}
+#lastOrder_box p
+{
+	text-indent:-9999px;
+}
+#lastTop
+{
+	margin-top: 30px;
+}
+#lastTop p
+{
+	background-image: url(../media/img/sentence/lastTop.png);
+	background-repeat: no-repeat;
+	width: 93px;
+	margin: 0 0 0 23px;
+	float: left;
+}
+#lastTop a
+{
+	margin-left: 35px;
+}
+#lastTop .line
+{
+	margin-left: 20px;
+}
+#lastList
+{
+	list-style: none;
+	padding: 5px 0 0 20px;
+}
+#lastList li
+{
+	margin-bottom: 15px;
+}
+#lastList .reBtn
+{
+	margin-left: 60px;
+}
+
+#favoriteBox
+{
+	background-color: rgba(255,255,255,0.8);
+	width: 250px;
+	height: 300px;
+	border-radius: 7px;
+	margin-left: 25px;
+	float: left;
+}
+#favoriteBox p
+{
+	text-indent:-9999px;
+}
+#favoriteTop
+{
+	margin-top: 30px;
+}
+#favoriteTop p
+{
+	background-image: url(../media/img/sentence/favoriteTop.png);
+	background-repeat: no-repeat;
+	width: 93px;
+	margin: 0 0 0 23px;
+	float: left;
+}
+#favoriteTop a
+{
+	margin-left: 35px;
+}
+#favoriteTop .line
+{
+	margin-left: 20px;
+}
+#favoriteList
+{
+	list-style: none;
+	padding: 0px 0 0 20px;
+}
+#favoriteList li
+{
+	margin-bottom: 5px;
+}
